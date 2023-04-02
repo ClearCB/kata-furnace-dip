@@ -7,10 +7,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import edu.craptocraft.furnace.behaviour.Heater;
-import edu.craptocraft.furnace.behaviour.Regulator;
 import edu.craptocraft.furnace.behaviour.Thermometer;
 import edu.craptocraft.furnace.domain.GasHeater;
-import edu.craptocraft.furnace.domain.RemoteCommandSensor;
 import edu.craptocraft.furnace.models.RoomTemperature;
 
 public class GasHeaterTest {

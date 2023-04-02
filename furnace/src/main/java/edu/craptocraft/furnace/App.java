@@ -23,14 +23,5 @@ public class App {
 
         System.out.println("Arrancando...");
         regulator.regulate(thermometer, heater, temperature);
-
-        temperature = RoomTemperature.getInstance();
-        // Jedi yoda = new Jedi();
-        // System.out.println("\nArrancando a Yoda: ");
-        // regulator.regulate(thermometer, yoda, minTemp, maxTemp, temperature);
-        // yoda.speak();
-
-        // Heater luke = new Jedi();
-        // luke.speak(); // ups, The method speak() is undefined for the type
     }
 }
